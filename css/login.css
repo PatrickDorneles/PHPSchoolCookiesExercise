@@ -76,4 +76,11 @@ html, body {
     width: 20%;
     margin: 15px;
     background: #f0da5e;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-button:active {
+    filter: brightness(0.9);
+    transform: scale(0.9);
 }
