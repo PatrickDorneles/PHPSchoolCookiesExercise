@@ -36,3 +36,19 @@ html, body {
     font-weight: bold;
     font-size: 18px;
 }
+
+.video-card {
+    height: 400px;
+    width: 45%;
+    margin: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 80px);
+    width: 100%;
+    align-items: center;
+}
